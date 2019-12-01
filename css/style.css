@@ -1,0 +1,73 @@
+body {
+    background-image: url("../background.png");
+    background-size: cover;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.message {
+	font-size: 1.4rem;
+	color: #000000;
+	line-height: 2.5rem;
+	letter-spacing: .1px;
+	padding: 2.5rem 3rem;
+	border-radius: 6rem;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+.action {
+    font-size: 1.4rem;
+	color: #000000;
+	line-height: 1.25rem;
+	letter-spacing: .1px;
+	padding: 1.25rem 1.5rem;
+	border-radius: 6rem;
+    background-color: rgb(255, 255, 255);
+    width: 12%;
+    text-align: left;
+    border-color: rgb(255, 255, 255);
+    border-width: 0.2rem;
+}
+
+.action:hover {
+    border-color: rgb(0, 0, 0);
+    border-width: 0.2rem;
+}
+
+.moon {
+    background-image: url("../moon.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+}
+
+.chan {
+    background-image: url("../chan.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+}
+
+.donate {
+    background-image: url("../donate.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+}
+
+.discord {
+    background-image: url("../discord.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+}
+
+.fighting {
+    display: inline;
+}
