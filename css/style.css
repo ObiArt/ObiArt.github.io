@@ -1,8 +1,8 @@
 body {
-    background-image: url("../background.png");
+    background: url("../background.png") no-repeat center center fixed; 
     background-size: cover;
     font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
-    text-align: center;
+    text-align: -webkit-center;
 }
 
 a {
@@ -17,7 +17,7 @@ a {
 	padding: 2.5rem 3rem;
 	border-radius: 6rem;
     background-color: rgb(255, 255, 255);
-    width: 50%;
+    width: 45rem;
     margin-bottom: 2rem;
 }
 
@@ -29,7 +29,7 @@ a {
 	padding: 1.25rem 1.5rem;
 	border-radius: 6rem;
     background-color: rgb(255, 255, 255);
-    width: 12%;
+    width: 15rem;
     text-align: left;
     border-color: rgb(255, 255, 255);
     border-width: 0.2rem;
@@ -69,5 +69,6 @@ a {
 }
 
 .fighting {
-    display: inline;
+    display: inline-flex;
+    margin-left: 5rem;
 }
