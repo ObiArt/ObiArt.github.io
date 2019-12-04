@@ -33,6 +33,9 @@ a {
     text-align: left;
     border-color: rgb(255, 255, 255);
     border-width: 0.2rem;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
 }
 
 .action:hover {
@@ -42,33 +45,25 @@ a {
 
 .moon {
     background-image: url("../moon.png");
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: contain;
 }
 
 .chan {
     background-image: url("../chan.png");
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: contain;
 }
 
 .donate {
     background-image: url("../donate.png");
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: contain;
 }
 
 .discord {
     background-image: url("../discord.png");
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: contain;
+}
+
+.megane {
+    background-image: url("../glasses.png");
 }
 
 .fighting {
-    display: inline-flex;
+    display: grid;
     margin-left: 5rem;
 }
