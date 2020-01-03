@@ -5,8 +5,9 @@ body {
     text-align: -webkit-center;
 }
 
-a {
+a, a:focus {
     text-decoration: none;
+    outline: none;
 }
 
 .message {
@@ -38,9 +39,10 @@ a {
     background-size: contain;
 }
 
-.action:hover {
+.action:hover, .action:focus {
     border-color: rgb(0, 0, 0);
     border-width: 0.2rem;
+    outline: none;
 }
 
 .moon {
@@ -63,7 +65,34 @@ a {
     background-image: url("../glasses.png");
 }
 
+.yamoney {
+    background-image: url("../yamoney.png");
+}
+
+.qiwi {
+    background-image: url("../qiwi.png");
+}
+
 .fighting {
     display: grid;
     margin-left: 5rem;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
 }
